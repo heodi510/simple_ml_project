@@ -40,3 +40,11 @@ We have adopted 8 machine learning models for training and predicting the possib
   By comparing the feature importance among all the feature in the dataset, we have concluded the most important features are as following:
   
  <p align="center"><img src="conclusion.png"</p>
+  
+  #### Conclusion
+- Season isn’t an important feature
+- Focus on top three features : Pressure, Temperature, Sunshine
+- Feature engineering: feature cross with date/month column
+- Quantitative Prediction: rainfall (mm)
+
+
