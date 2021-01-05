@@ -6,14 +6,37 @@ Occasionally we could observe that the weather prediction made by the authority 
 
 ## Data Collection & Preprocessing
 
-**Australian Weather**<br>
+**Australian Weather** <br>
 
 The <a href="https://www.kaggle.com/jsphyg/weather-dataset-rattle-package">Australia Rain Dataset</a> contains 10 years of daily weather observations from many locations across Australia, which scraped from the Bureau of Meteorology of Australia.
 
-**Hong Kong Observatory**<br>
-The Hong Kong Weather is scraped through Hong Kong Observatory by Dicky errr idk
 
+<p align="center"><img src="heatmap.png"</p>
+
+
+
+
+**Hong Kong Observatory** <br>
+The Hong Kong Weather is scraped through Hong Kong Observatory by Dicky contains 7205 data of HK weather from 2008 to 2017
+
+Data Preprocess:
+  - Drop Risk_mm
+  - Inpute Missing Values
+  - Drop All the Categorical Volumns
+  - Filter Out Common Columns For Both Dataset
+  - Split Train/Test Data
+  - Remove Outlier
+  - Feature Scaling
 
 ## Models Evaluation 
+We have adopted 8 machine learning models for training and predicting the possibility of raining for tomorrow.
+
+<p align="center"><img src="models.png"</p>
+ <p align="center"><img src="models1.png"</p>
 
 ## Conclusion & Future Improvements
+
+  
+  By comparing the feature importance among all the feature in the dataset, we have concluded the most important features are as following:
+  
+ <p align="center"><img src="conclusion.png"</p>
