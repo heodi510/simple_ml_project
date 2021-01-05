@@ -6,11 +6,11 @@ Occasionally we could observe that the weather prediction made by the authority 
 
 ## Data Collection & Preprocessing
 
-**Australian Weather**
+**Australian Weather**<br>
 
 The<a> href="https://www.kaggle.com/jsphyg/weather-dataset-rattle-package">Australia Rain Dataset</a> contains 10 years of daily weather observations from many locations across Australia, which scraped from the Bureau of Meteorology of Australia.
 
-**Hong Kong Observatory**
+**Hong Kong Observatory**<br>
 The Hong Kong Weather is scraped through Hong Kong Observatory by Dicky errr idk
 
 
