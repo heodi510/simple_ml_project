@@ -1,8 +1,8 @@
-# Simple Machine Learning Project
+# Rainfall Prediction by Machine Learning
 <p align="center"><img src="bg.png"</p>
 
 ## Project Overview
-Occasionally we could observe that the weather prediction made by the authority is not always accurate thus bringing inconvenience and economic loss to the public. To further enhance the current weather forecasting system, we would like to find the most important features for raining prediction in order to provide and alternative solution for weather forecasting. In addition, by comparing the weather in Northern and Southern hemisphere, we wish to find interesting findings that might contributing to our project.
+Occasionally we could observe that the weather prediction made by the authority is not always accurate thus bringing inconvenience and economic loss to the public. To further enhance the current weather forecasting system, we would like to find the most important features for raining prediction in order to provide and alternative solution for weather forecasting. In addition, by comparing the weather in Northern and Southern hemisphere, we wish to find interesting findings that might contribute to our project.
 
 ## Data Collection & Preprocessing
 
@@ -41,8 +41,8 @@ We have adopted 8 machine learning models for training and predicting the possib
   
  <p align="center"><img src="conclusion.png"</p>
 
-- Season isn’t an important feature
 - Focus on top three features : Pressure, Temperature, Sunshine
+- Season is only a defined term, but not a deciding factor on rainfall
 - Feature engineering: feature cross with date/month column
 - Quantitative Prediction: rainfall (mm)
 
